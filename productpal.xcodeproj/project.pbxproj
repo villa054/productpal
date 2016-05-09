@@ -24,10 +24,6 @@
 		EAF8B1101CC6D9300055C0FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8B10F1CC6D9300055C0FB /* QuartzCore.framework */; };
 		EAF8B1121CC6D93A0055C0FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8B1111CC6D93A0055C0FB /* CoreLocation.framework */; };
 		EAF8B1141CC6D9520055C0FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8B1131CC6D9520055C0FB /* SystemConfiguration.framework */; };
-		EAF8B1171CC6DC8A0055C0FB /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8B1151CC6DC2C0055C0FB /* libc++.1.dylib */; };
-		EAF8B1191CC6DCC10055C0FB /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8B1181CC6DCC10055C0FB /* libiconv.2.dylib */; };
-		EAF8B11B1CC6DCDA0055C0FB /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8B11A1CC6DCDA0055C0FB /* libz.1.dylib */; };
-		EAF8B11D1CC6DD6F0055C0FB /* ScanditBarcodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8B11C1CC6DD6F0055C0FB /* ScanditBarcodeScanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,10 +46,6 @@
 		EAF8B10F1CC6D9300055C0FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EAF8B1111CC6D93A0055C0FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EAF8B1131CC6D9520055C0FB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		EAF8B1151CC6DC2C0055C0FB /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
-		EAF8B1181CC6DCC10055C0FB /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = ../../../../usr/lib/libiconv.2.dylib; sourceTree = "<group>"; };
-		EAF8B11A1CC6DCDA0055C0FB /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
-		EAF8B11C1CC6DD6F0055C0FB /* ScanditBarcodeScanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanditBarcodeScanner.framework; path = "../../Desktop/scandit-barcodescanner-community-ios_4.13.1/ScanditSDK/ScanditBarcodeScanner.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF8B11B1CC6DCDA0055C0FB /* libz.1.dylib in Frameworks */,
-				EAF8B11D1CC6DD6F0055C0FB /* ScanditBarcodeScanner.framework in Frameworks */,
-				EAF8B1191CC6DCC10055C0FB /* libiconv.2.dylib in Frameworks */,
-				EAF8B1171CC6DC8A0055C0FB /* libc++.1.dylib in Frameworks */,
 				EAF8B1141CC6D9520055C0FB /* SystemConfiguration.framework in Frameworks */,
 				EAF8B1121CC6D93A0055C0FB /* CoreLocation.framework in Frameworks */,
 				EAF8B1101CC6D9300055C0FB /* QuartzCore.framework in Frameworks */,
@@ -86,10 +74,6 @@
 		AA226BBA1CB56B6E0011AA65 = {
 			isa = PBXGroup;
 			children = (
-				EAF8B11C1CC6DD6F0055C0FB /* ScanditBarcodeScanner.framework */,
-				EAF8B11A1CC6DCDA0055C0FB /* libz.1.dylib */,
-				EAF8B1181CC6DCC10055C0FB /* libiconv.2.dylib */,
-				EAF8B1151CC6DC2C0055C0FB /* libc++.1.dylib */,
 				EAF8B1131CC6D9520055C0FB /* SystemConfiguration.framework */,
 				EAF8B1111CC6D93A0055C0FB /* CoreLocation.framework */,
 				EAF8B10F1CC6D9300055C0FB /* QuartzCore.framework */,
